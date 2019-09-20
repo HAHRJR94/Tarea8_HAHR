@@ -1,22 +1,15 @@
 {
-  "name": "dps-palette-generator",
+  "name": "palette-generator",
   "version": "1.0.0",
-  "description": "A color palette generator from an image",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack -p --config webpack-worker.config.js && webpack-dev-server --hot --inline --colors --progress",
     "build": "webpack -p --config webpack-worker.config.js && webpack -p --colors && webpack --config webpack-worker.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidpoza/dps-palette-generator.git"
-  },
   "author": "HectorH",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/davidpoza/dps-palette-generator/issues"
-  },
-  "homepage": "https://github.com/davidpoza/dps-palette-generator#readme",
+
   "dependencies": {
     "file-loader": "^3.0.1",
     "prop-types": "^15.7.2",
