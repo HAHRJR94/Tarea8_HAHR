@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "npm" : "6.11.3",
+    "node" : "v10.16.3"
+  },
   "scripts": {
     "start": "webpack -p --config webpack-worker.config.js && webpack-dev-server --hot --inline --colors --progress",
     "build": "webpack -p --config webpack-worker.config.js && webpack -p --colors && webpack --config webpack-worker.config.js"
